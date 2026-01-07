@@ -1,0 +1,42 @@
+# Logs
+*.log
+npm-debug.log
+yarn-error.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# PHP/Laravel
+/vendor
+/storage/*.key
+/storage/pail
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+Homestead.json
+Homestead.yaml
+auth.json
+
+# Node
+/node_modules
+
+# Build files
+/public/build
+/public/hot
+/public/storage
+
+# IDEs
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# Docker
+/.docker-data
